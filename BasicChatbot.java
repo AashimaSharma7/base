@@ -28,7 +28,10 @@ public class BasicChatbot {
                     response = "You're welcome!";
                     break;
                 case "good":
-                    response = "nice to hear that! How can i help?";
+                    response = "nice to hear that! How can I help?";
+                    break;
+                case "I am";
+                    response = "HI, it's nice to know you";
                     break;
                 default:
                     response = "Sorry, I didn't understand that. Can you please rephrase?";
